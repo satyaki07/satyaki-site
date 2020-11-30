@@ -78,17 +78,27 @@ hr {
 
 .navigation .link {
     color: white;
+    transition: all .2s ease;
+}
+
+.navigation .link:hover {
+    font-size: 1.1rem;
 }
 
 .navigation .link-active {
     font-weight: bold;
 }
 
-/** Header **/
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 
+/** Header **/
 .hero {
     padding: 2rem;
-    padding-top: 5rem;
+    padding-top: 10rem;
     height: 60vh;
 }
 
@@ -134,7 +144,6 @@ hr {
     /* background-color: var(--primary-color); */
     padding: 2rem 1rem;
     text-align: center;
-
     border-top-right-radius: 1rem;
 }
 
