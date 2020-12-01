@@ -222,3 +222,15 @@ ion-icon {
     margin-top: -5px;
     margin-right: 0.2rem;
 }
+
+.icon-git:hover, .link-git:hover  {
+    color: #000;
+}
+
+.icon-linkedin:hover, .link-linkedin:hover {
+    color: #007BB5;
+}
+
+.icon-twitter:hover, .link-twitter:hover {
+    color: #55ACEE;
+}
