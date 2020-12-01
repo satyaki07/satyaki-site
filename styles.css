@@ -3,7 +3,7 @@
     --primary-color: #F4D03F;
     --dark-grey: #6B7280;
     --off-white: #F3F4F6;
-    --background-shade: #FFE98E;
+    --background-shade: #FDF9E7;
 }
 
 body {
@@ -16,6 +16,7 @@ hr {
 }
 
 /** spaces **/
+
 .margin-md {
     margin-top: 6rem;
 }
@@ -101,11 +102,11 @@ hr {
 }
 
 /** Header **/
+
 .hero {
     padding-left: 2rem;
     padding-right: 2rem;
     padding-bottom: 2rem;
-    
 }
 
 .hero-home {
@@ -156,15 +157,13 @@ hr {
     padding: 2rem 1rem;
     text-align: center;
     border-top-right-radius: 1rem;
-}
-
-.footer-rest {
     background-color: var(--primary-color);
 }
 
+.footer-rest {}
 
 .footer .link {
-    color: var(--primary-color);
+    color: white;
     font-weight: bold;
 }
 
@@ -173,7 +172,7 @@ hr {
 }
 
 .footer .footer-header {
-    color: var(--primary-color);
+    color: white;
     font-size: 4rem;
     font-weight: bold;
     font-size: large;
@@ -191,4 +190,35 @@ hr {
 .footer-end {
     background-color: var(--primary-color);
     margin: 0;
+    padding: 0;
+}
+
+/** Blog **/
+
+.blog-image {
+    display: block;
+    /* margin: auto; */
+    max-width: 650px;
+    padding: 2rem;
+}
+
+.blog-date {
+    font-size: 1rem;
+    margin-left: 1.5rem;
+}
+
+.blog-text {
+    font-size: 1.1rem;
+}
+
+.first-letter {
+    font-size: 3rem;
+}
+
+ion-icon {
+    font-size: 1.8rem;
+    line-height: 120%;
+	vertical-align: middle;
+    margin-top: -5px;
+    margin-right: 0.2rem;
 }
